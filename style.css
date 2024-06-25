@@ -1,68 +1,34 @@
-.container, .header{
-    display: flex;
-    flex-direction: column;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.header{
-    /* this is what I changed */
-    align-items: flex-start;
-    background-color: #1f2937;
-    
-}
-
-.header-top{
+ul{
+    list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    gap: 20px;
 }
-#logo{
+a{
+    font-size: 18px;
+    color:#e5e7eb;
+    text-decoration: none;
+}
+.section1{
+   background-color: #1f2937;
+   height: auto;
+   width: auto;
+}
+.header-top{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+#Logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
     font-size: 24px;
     color: #f9faf8;
 }
 
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-}
-a{
-    font-size: 18px;
-    color: #e5e7eb;
-    text-decoration: none;  
-}
-
-.header-body{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 500px;
-}
-
-.header-image{
-    height: 200px;
-    width: 900px;
-    background-color: #7d8085;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#placeholder{
-    font-size: 18px ;
-    color:#e5e7eb;
-}
-#subheader, #subheader-text{
-    margin: 0;
-}
-#subheader{
-    font-size: 48px;
-    font-weight: bold;
-    color: #f9faf8;
-}
-#subheader-text{
-    font-size: 18px;
-    color: #e5e7eb;
-}

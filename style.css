@@ -3,7 +3,10 @@
     flex-direction: column;
 }
 .header{
+    /* this is what I changed */
+    align-items: flex-start;
     background-color: #1f2937;
+    
 }
 
 .header-top{

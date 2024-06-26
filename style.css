@@ -93,7 +93,7 @@ a{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 215px;
+    padding: 75px 215px;
 }
 .box-text{
     display: flex;
@@ -103,4 +103,35 @@ a{
     width: 150px;
     text-align: center;
 }
+#subtext{
+    font-size: 18px;
+    color: #787a81;
+}
 /*********Section 3********/
+.section3{
+    background-color: #e5e7eb;
+    height: auto;
+    width: auto;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+}
+.quote p{
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+    text-align: start;
+    width: 700px;
+}
+.quote h2{
+    font: 30px;
+    color: #1f2937;
+    font-weight: bolder;
+    text-align: end;
+    align-self: flex-end;
+    padding-right: 250px ;
+}

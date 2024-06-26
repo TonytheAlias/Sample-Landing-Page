@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/********** BOX1 *******/
 ul{
     list-style-type: none;
     display: flex;
@@ -22,6 +23,8 @@ a{
 .header-top{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding: 30px;
     gap: 30px;
 }
 #Logo{
@@ -31,4 +34,39 @@ a{
     font-size: 24px;
     color: #f9faf8;
 }
-
+.header-body img{
+    height: 200px;
+    width: 400px;
+}
+.header-body .right{
+    height: 200px;
+    width: 400px;
+}
+.header-body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 150px;
+    gap: 16px;
+}
+#hero-main{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+#hero-sub{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+#SignUp{
+    font-size: 15px;
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    width: 120px;
+    margin-top: 8px;
+    text-align: center;
+}

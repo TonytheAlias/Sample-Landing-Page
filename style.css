@@ -72,7 +72,7 @@ a{
 }
 /********** Section 2**********/
 .section2{
-    background-color: #e5e7eb;
+    background-color: white;
     height: auto;
     width: auto;
 }
@@ -93,5 +93,14 @@ a{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 150px;
+    padding: 50px 215px;
 }
+.box-text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: auto;
+    width: 150px;
+    text-align: center;
+}
+/*********Section 3********/
